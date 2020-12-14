@@ -220,7 +220,6 @@ def new_database():
         cursor = mydb.cursor()
         main()
 
-
     except:
         print('''
                 Database Does not exits
@@ -331,12 +330,10 @@ def main():
     elif option == 4:
         net_banking()
 
-
     elif option == 5:
         update_password()
 
     else:
         pass
-
 
 new_database()
